@@ -2,13 +2,13 @@ import React from "react";
 import Chart from "chart.js/auto";
 import { Doughnut } from "react-chartjs-2";
 import "./index.css";
-function Statcards() {
+function Statcards({ labels, values }) {
     const data = {
-        labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
+        labels: labels,
         datasets: [
             {
-                label: "# of Votes",
-                data: [12, 19, 3, 5, 2, 3],
+                label: "No. of Tickets",
+                data: values,
                 backgroundColor: [
                     "rgba(255, 99, 132, 0.2)",
                     "rgba(54, 162, 235, 0.2)",
@@ -33,7 +33,23 @@ function Statcards() {
         plugins: {
             legend: {
                 display: true,
-                position: "right", // You can use 'top', 'left', 'bottom', 'right'
+                position: "right", 
+                labels: {
+                    generateLabels: (chart) => {
+                        const dataset = chart.data.datasets[0];
+                        return chart.data.labels.map((label, i) => {
+                            const value = dataset.data[i];
+                            return {
+                                text: `${label}: ${value}`,
+                                fillStyle: dataset.backgroundColor[i],
+                                strokeStyle: dataset.borderColor[i],
+                                lineWidth: dataset.borderWidth,
+                                hidden: !chart.getDataVisibility(i),
+                                index: i,
+                            };
+                        });
+                    },
+                },
             },
             tooltip: {
                 enabled: true,
@@ -43,7 +59,7 @@ function Statcards() {
     return (
         <>
             <div className="card">
-                <Doughnut data={data} options = {options} />
+                <Doughnut data={data} options={options}/>
             </div>
         </>
     );
