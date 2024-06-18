@@ -1,0 +1,242 @@
+[
+    {
+        "assessment_name": "Assessment 1",
+        "product_team": "Team C",
+        "control_name": "Type 1 Control",
+        "control_domain": "Type 1 Domain",
+        "jira_ticket_id": "JIRA-1",
+        "jira_ticket_status": "Resolved"
+    },
+    {
+        "assessment_name": "Assessment 2",
+        "product_team": "Team A",
+        "control_name": "Type 2 Control",
+        "control_domain": "Type 2 Domain",
+        "jira_ticket_id": "JIRA-2",
+        "jira_ticket_status": "Open"
+    },
+    {
+        "assessment_name": "Assessment 3",
+        "product_team": "Team E",
+        "control_name": "Type 3 Control",
+        "control_domain": "Type 3 Domain",
+        "jira_ticket_id": "JIRA-3",
+        "jira_ticket_status": "Blocked"
+    },
+    {
+        "assessment_name": "Assessment 4",
+        "product_team": "Team B",
+        "control_name": "Type 4 Control",
+        "control_domain": "Type 4 Domain",
+        "jira_ticket_id": "JIRA-4",
+        "jira_ticket_status": "In Progress"
+    },
+    {
+        "assessment_name": "Assessment 5",
+        "product_team": "Team D",
+        "control_name": "Type 5 Control",
+        "control_domain": "Type 5 Domain",
+        "jira_ticket_id": "JIRA-5",
+        "jira_ticket_status": "Closed"
+    },
+    {
+        "assessment_name": "Assessment 6",
+        "product_team": "Team A",
+        "control_name": "Type 1 Control",
+        "control_domain": "Type 2 Domain",
+        "jira_ticket_id": "JIRA-6",
+        "jira_ticket_status": "Resolved"
+    },
+    {
+        "assessment_name": "Assessment 7",
+        "product_team": "Team C",
+        "control_name": "Type 2 Control",
+        "control_domain": "Type 3 Domain",
+        "jira_ticket_id": "JIRA-7",
+        "jira_ticket_status": "Open"
+    },
+    {
+        "assessment_name": "Assessment 8",
+        "product_team": "Team E",
+        "control_name": "Type 3 Control",
+        "control_domain": "Type 4 Domain",
+        "jira_ticket_id": "JIRA-8",
+        "jira_ticket_status": "In Progress"
+    },
+    {
+        "assessment_name": "Assessment 9",
+        "product_team": "Team B",
+        "control_name": "Type 4 Control",
+        "control_domain": "Type 5 Domain",
+        "jira_ticket_id": "JIRA-9",
+        "jira_ticket_status": "In Progress"
+    },
+    {
+        "assessment_name": "Assessment 10",
+        "product_team": "Team D",
+        "control_name": "Type 5 Control",
+        "control_domain": "Type 1 Domain",
+        "jira_ticket_id": "JIRA-10",
+        "jira_ticket_status": "Closed"
+    },
+    {
+        "assessment_name": "Assessment 11",
+        "product_team": "Team A",
+        "control_name": "Type 1 Control",
+        "control_domain": "Type 3 Domain",
+        "jira_ticket_id": "JIRA-11",
+        "jira_ticket_status": "Resolved"
+    },
+    {
+        "assessment_name": "Assessment 12",
+        "product_team": "Team C",
+        "control_name": "Type 2 Control",
+        "control_domain": "Type 4 Domain",
+        "jira_ticket_id": "JIRA-12",
+        "jira_ticket_status": "Open"
+    },
+    {
+        "assessment_name": "Assessment 13",
+        "product_team": "Team E",
+        "control_name": "Type 3 Control",
+        "control_domain": "Type 5 Domain",
+        "jira_ticket_id": "JIRA-13",
+        "jira_ticket_status": "Blocked"
+    },
+    {
+        "assessment_name": "Assessment 14",
+        "product_team": "Team B",
+        "control_name": "Type 4 Control",
+        "control_domain": "Type 1 Domain",
+        "jira_ticket_id": "JIRA-14",
+        "jira_ticket_status": "In Progress"
+    },
+    {
+        "assessment_name": "Assessment 15",
+        "product_team": "Team D",
+        "control_name": "Type 5 Control",
+        "control_domain": "Type 2 Domain",
+        "jira_ticket_id": "JIRA-15",
+        "jira_ticket_status": "In Progress"
+    },
+    {
+        "assessment_name": "Assessment 16",
+        "product_team": "Team A",
+        "control_name": "Type 1 Control",
+        "control_domain": "Type 4 Domain",
+        "jira_ticket_id": "JIRA-16",
+        "jira_ticket_status": "Resolved"
+    },
+    {
+        "assessment_name": "Assessment 17",
+        "product_team": "Team C",
+        "control_name": "Type 2 Control",
+        "control_domain": "Type 5 Domain",
+        "jira_ticket_id": "JIRA-17",
+        "jira_ticket_status": "Open"
+    },
+    {
+        "assessment_name": "Assessment 18",
+        "product_team": "Team E",
+        "control_name": "Type 3 Control",
+        "control_domain": "Type 1 Domain",
+        "jira_ticket_id": "JIRA-18",
+        "jira_ticket_status": "Blocked"
+    },
+    {
+        "assessment_name": "Assessment 19",
+        "product_team": "Team B",
+        "control_name": "Type 4 Control",
+        "control_domain": "Type 2 Domain",
+        "jira_ticket_id": "JIRA-19",
+        "jira_ticket_status": "In Progress"
+    },
+    {
+        "assessment_name": "Assessment 20",
+        "product_team": "Team D",
+        "control_name": "Type 5 Control",
+        "control_domain": "Type 3 Domain",
+        "jira_ticket_id": "JIRA-20",
+        "jira_ticket_status": "Closed"
+    },
+    {
+        "assessment_name": "Assessment 21",
+        "product_team": "Team A",
+        "control_name": "Type 1 Control",
+        "control_domain": "Type 5 Domain",
+        "jira_ticket_id": "JIRA-21",
+        "jira_ticket_status": "Resolved"
+    },
+    {
+        "assessment_name": "Assessment 22",
+        "product_team": "Team C",
+        "control_name": "Type 2 Control",
+        "control_domain": "Type 1 Domain",
+        "jira_ticket_id": "JIRA-22",
+        "jira_ticket_status": "Open"
+    },
+    {
+        "assessment_name": "Assessment 23",
+        "product_team": "Team E",
+        "control_name": "Type 3 Control",
+        "control_domain": "Type 2 Domain",
+        "jira_ticket_id": "JIRA-23",
+        "jira_ticket_status": "Blocked"
+    },
+    {
+        "assessment_name": "Assessment 24",
+        "product_team": "Team B",
+        "control_name": "Type 4 Control",
+        "control_domain": "Type 3 Domain",
+        "jira_ticket_id": "JIRA-24",
+        "jira_ticket_status": "In Progress"
+    },
+    {
+        "assessment_name": "Assessment 25",
+        "product_team": "Team D",
+        "control_name": "Type 5 Control",
+        "control_domain": "Type 4 Domain",
+        "jira_ticket_id": "JIRA-25",
+        "jira_ticket_status": "Closed"
+    },
+    {
+        "assessment_name": "Assessment 26",
+        "product_team": "Team A",
+        "control_name": "Type 1 Control",
+        "control_domain": "Type 1 Domain",
+        "jira_ticket_id": "JIRA-26",
+        "jira_ticket_status": "Resolved"
+    },
+    {
+        "assessment_name": "Assessment 27",
+        "product_team": "Team C",
+        "control_name": "Type 2 Control",
+        "control_domain": "Type 2 Domain",
+        "jira_ticket_id": "JIRA-27",
+        "jira_ticket_status": "Open"
+    },
+    {
+        "assessment_name": "Assessment 28",
+        "product_team": "Team E",
+        "control_name": "Type 3 Control",
+        "control_domain": "Type 3 Domain",
+        "jira_ticket_id": "JIRA-28",
+        "jira_ticket_status": "Blocked"
+    },
+    {
+        "assessment_name": "Assessment 29",
+        "product_team": "Team B",
+        "control_name": "Type 4 Control",
+        "control_domain": "Type 4 Domain",
+        "jira_ticket_id": "JIRA-29",
+        "jira_ticket_status": "In Progress"
+    },
+    {
+        "assessment_name": "Assessment 30",
+        "product_team": "Team D",
+        "control_name": "Type 5 Control",
+        "control_domain": "Type 5 Domain",
+        "jira_ticket_id": "JIRA-30",
+        "jira_ticket_status": "Closed"
+    }
+]
