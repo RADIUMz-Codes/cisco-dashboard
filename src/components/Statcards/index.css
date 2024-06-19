@@ -1,9 +1,16 @@
 .card{
     height: 25rem;
     display: flex;
+    align-items: center;
     justify-content: center;
-    padding: 5px;
+    flex-direction: column;
+    /* padding: 100px; */
     margin: 10px 150px 20px 150px;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.total{
+    /* margin-top: 100px; */
+    z-index: 3;
 }

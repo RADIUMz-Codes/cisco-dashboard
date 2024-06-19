@@ -2,12 +2,13 @@ import React, { useEffect, useState } from "react";
 import Chart from "chart.js/auto";
 import { Doughnut } from "react-chartjs-2";
 import "./index.css";
-function Statcards({ doughnutData}) {
-
+function Statcards({ doughnutData }) {
     const [labels, setLabels] = useState([]);
     const [values, setValues] = useState([]);
+    const [total, setTotal] = useState(0);
 
     useEffect(() => {
+        setTotal(doughnutData.length);
         let tempLabels = doughnutData.map((obj) => obj.jira_ticket_status);
         let labelSet = new Set(tempLabels);
         let processedLabels = [...labelSet];
@@ -64,17 +65,28 @@ function Statcards({ doughnutData}) {
                 labels: {
                     generateLabels: (chart) => {
                         const dataset = chart.data.datasets[0];
-                        return chart.data.labels.map((label, i) => {
-                            const value = dataset.data[i];
-                            return {
-                                text: `${label}: ${value}`,
-                                fillStyle: dataset.backgroundColor[i],
-                                strokeStyle: dataset.borderColor[i],
-                                lineWidth: dataset.borderWidth,
-                                hidden: !chart.getDataVisibility(i),
-                                index: i,
-                            };
-                        });
+                        let temp = [
+                            {
+                                text: `Total: ${total}`,
+                                fillStyle: "rgba(0, 0, 0, 0)",
+                                strokeStyle: "rgba(0, 0, 0, 0)",
+                                lineWidth: 0,
+                                fontStyle: "bold",
+                            },
+                        ];
+                        let label = chart.data.labels
+                            .map((label, i) => {
+                                const value = dataset.data[i];
+                                return {
+                                    text: `${label}: ${value}`,
+                                    fillStyle: dataset.backgroundColor[i],
+                                    strokeStyle: dataset.borderColor[i],
+                                    lineWidth: dataset.borderWidth,
+                                    hidden: !chart.getDataVisibility(i),
+                                    index: i,
+                                };
+                            });
+                            return temp.concat(label)
                     },
                 },
             },
@@ -86,7 +98,6 @@ function Statcards({ doughnutData}) {
     return (
         <>
             <div className="card">
-                
                 <Doughnut data={data} options={options} />
             </div>
         </>
