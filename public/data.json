@@ -1,13 +1,15 @@
 [
     {
+        "key": 1,
         "assessment_name": "Assessment 1",
         "product_team": "Team C",
         "control_name": "Type 1 Control",
         "control_domain": "Type 1 Domain",
         "jira_ticket_id": "JIRA-1",
-        "jira_ticket_status": "Resolved"
+        "jira_ticket_status": "Open"
     },
     {
+        "key": 2,
         "assessment_name": "Assessment 2",
         "product_team": "Team A",
         "control_name": "Type 2 Control",
@@ -16,6 +18,7 @@
         "jira_ticket_status": "Open"
     },
     {
+        "key": 3,
         "assessment_name": "Assessment 3",
         "product_team": "Team E",
         "control_name": "Type 3 Control",
@@ -24,6 +27,7 @@
         "jira_ticket_status": "Blocked"
     },
     {
+        "key": 4,
         "assessment_name": "Assessment 4",
         "product_team": "Team B",
         "control_name": "Type 4 Control",
@@ -32,6 +36,7 @@
         "jira_ticket_status": "In Progress"
     },
     {
+        "key": 5,
         "assessment_name": "Assessment 5",
         "product_team": "Team D",
         "control_name": "Type 5 Control",
@@ -40,6 +45,7 @@
         "jira_ticket_status": "Closed"
     },
     {
+        "key": 6,
         "assessment_name": "Assessment 6",
         "product_team": "Team A",
         "control_name": "Type 1 Control",
@@ -48,6 +54,7 @@
         "jira_ticket_status": "Resolved"
     },
     {
+        "key": 7,
         "assessment_name": "Assessment 7",
         "product_team": "Team C",
         "control_name": "Type 2 Control",
@@ -56,6 +63,7 @@
         "jira_ticket_status": "Open"
     },
     {
+        "key": 8,
         "assessment_name": "Assessment 8",
         "product_team": "Team E",
         "control_name": "Type 3 Control",
@@ -64,6 +72,7 @@
         "jira_ticket_status": "In Progress"
     },
     {
+        "key": 9,
         "assessment_name": "Assessment 9",
         "product_team": "Team B",
         "control_name": "Type 4 Control",
@@ -72,14 +81,16 @@
         "jira_ticket_status": "In Progress"
     },
     {
+        "key": 10,
         "assessment_name": "Assessment 10",
         "product_team": "Team D",
         "control_name": "Type 5 Control",
         "control_domain": "Type 1 Domain",
         "jira_ticket_id": "JIRA-10",
-        "jira_ticket_status": "Closed"
+        "jira_ticket_status": "Open"
     },
     {
+        "key": 11,
         "assessment_name": "Assessment 11",
         "product_team": "Team A",
         "control_name": "Type 1 Control",
@@ -88,6 +99,7 @@
         "jira_ticket_status": "Resolved"
     },
     {
+        "key": 12,
         "assessment_name": "Assessment 12",
         "product_team": "Team C",
         "control_name": "Type 2 Control",
@@ -96,14 +108,16 @@
         "jira_ticket_status": "Open"
     },
     {
+        "key": 13,
         "assessment_name": "Assessment 13",
         "product_team": "Team E",
         "control_name": "Type 3 Control",
         "control_domain": "Type 5 Domain",
         "jira_ticket_id": "JIRA-13",
-        "jira_ticket_status": "Blocked"
+        "jira_ticket_status": "Open"
     },
     {
+        "key": 14,
         "assessment_name": "Assessment 14",
         "product_team": "Team B",
         "control_name": "Type 4 Control",
@@ -112,6 +126,7 @@
         "jira_ticket_status": "In Progress"
     },
     {
+        "key": 15,
         "assessment_name": "Assessment 15",
         "product_team": "Team D",
         "control_name": "Type 5 Control",
@@ -120,6 +135,7 @@
         "jira_ticket_status": "In Progress"
     },
     {
+        "key": 16,
         "assessment_name": "Assessment 16",
         "product_team": "Team A",
         "control_name": "Type 1 Control",
@@ -128,6 +144,7 @@
         "jira_ticket_status": "Resolved"
     },
     {
+        "key": 17,
         "assessment_name": "Assessment 17",
         "product_team": "Team C",
         "control_name": "Type 2 Control",
@@ -136,6 +153,7 @@
         "jira_ticket_status": "Open"
     },
     {
+        "key": 18,
         "assessment_name": "Assessment 18",
         "product_team": "Team E",
         "control_name": "Type 3 Control",
@@ -144,6 +162,7 @@
         "jira_ticket_status": "Blocked"
     },
     {
+        "key": 19,
         "assessment_name": "Assessment 19",
         "product_team": "Team B",
         "control_name": "Type 4 Control",
@@ -152,6 +171,7 @@
         "jira_ticket_status": "In Progress"
     },
     {
+        "key": 20,
         "assessment_name": "Assessment 20",
         "product_team": "Team D",
         "control_name": "Type 5 Control",
@@ -160,6 +180,7 @@
         "jira_ticket_status": "Closed"
     },
     {
+        "key": 21,
         "assessment_name": "Assessment 21",
         "product_team": "Team A",
         "control_name": "Type 1 Control",
@@ -168,6 +189,7 @@
         "jira_ticket_status": "Resolved"
     },
     {
+        "key": 22,
         "assessment_name": "Assessment 22",
         "product_team": "Team C",
         "control_name": "Type 2 Control",
@@ -176,6 +198,7 @@
         "jira_ticket_status": "Open"
     },
     {
+        "key": 23,
         "assessment_name": "Assessment 23",
         "product_team": "Team E",
         "control_name": "Type 3 Control",
@@ -184,6 +207,7 @@
         "jira_ticket_status": "Blocked"
     },
     {
+        "key": 24,
         "assessment_name": "Assessment 24",
         "product_team": "Team B",
         "control_name": "Type 4 Control",
@@ -192,6 +216,7 @@
         "jira_ticket_status": "In Progress"
     },
     {
+        "key": 25,
         "assessment_name": "Assessment 25",
         "product_team": "Team D",
         "control_name": "Type 5 Control",
@@ -200,6 +225,7 @@
         "jira_ticket_status": "Closed"
     },
     {
+        "key": 26,
         "assessment_name": "Assessment 26",
         "product_team": "Team A",
         "control_name": "Type 1 Control",
@@ -208,6 +234,7 @@
         "jira_ticket_status": "Resolved"
     },
     {
+        "key": 27,
         "assessment_name": "Assessment 27",
         "product_team": "Team C",
         "control_name": "Type 2 Control",
@@ -216,6 +243,7 @@
         "jira_ticket_status": "Open"
     },
     {
+        "key": 28,
         "assessment_name": "Assessment 28",
         "product_team": "Team E",
         "control_name": "Type 3 Control",
@@ -224,6 +252,7 @@
         "jira_ticket_status": "Blocked"
     },
     {
+        "key": 29,
         "assessment_name": "Assessment 29",
         "product_team": "Team B",
         "control_name": "Type 4 Control",
@@ -232,6 +261,7 @@
         "jira_ticket_status": "In Progress"
     },
     {
+        "key": 30,
         "assessment_name": "Assessment 30",
         "product_team": "Team D",
         "control_name": "Type 5 Control",

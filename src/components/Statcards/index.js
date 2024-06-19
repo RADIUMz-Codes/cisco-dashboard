@@ -1,8 +1,35 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Chart from "chart.js/auto";
 import { Doughnut } from "react-chartjs-2";
 import "./index.css";
-function Statcards({ labels, values }) {
+function Statcards({ doughnutData}) {
+
+    const [labels, setLabels] = useState([]);
+    const [values, setValues] = useState([]);
+
+    useEffect(() => {
+        let tempLabels = doughnutData.map((obj) => obj.jira_ticket_status);
+        let labelSet = new Set(tempLabels);
+        let processedLabels = [...labelSet];
+        setLabels(processedLabels);
+
+        let tempValues = {};
+        for (let data of tempLabels) {
+            if (tempValues[data]) {
+                tempValues[data]++;
+            } else {
+                tempValues[data] = 1;
+            }
+        }
+
+        let valArray = [];
+        for (let label of processedLabels) {
+            valArray.push(tempValues[label]);
+        }
+        setValues(valArray);
+        console.log("test in stats");
+    }, [doughnutData]);
+
     const data = {
         labels: labels,
         datasets: [
@@ -33,7 +60,7 @@ function Statcards({ labels, values }) {
         plugins: {
             legend: {
                 display: true,
-                position: "right", 
+                position: "right",
                 labels: {
                     generateLabels: (chart) => {
                         const dataset = chart.data.datasets[0];
@@ -59,7 +86,8 @@ function Statcards({ labels, values }) {
     return (
         <>
             <div className="card">
-                <Doughnut data={data} options={options}/>
+                
+                <Doughnut data={data} options={options} />
             </div>
         </>
     );

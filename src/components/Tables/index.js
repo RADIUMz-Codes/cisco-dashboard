@@ -98,12 +98,13 @@ const columns = [
     },
 ];
 
-function Tables({data}) {
+function Tables({data, setDoughnutData}) {
     
     
 
     const onChange = (pagination, filters, sorter, extra) => {
         console.log("params", pagination, filters, sorter, extra);
+        setDoughnutData(extra.currentDataSource)
     };
     return (
         <>
@@ -114,7 +115,7 @@ function Tables({data}) {
                     onChange={onChange}
                     pagination={{
                         pageSize: 5,
-                    }}
+                    }}                    
                 />
             </div>
         </>
